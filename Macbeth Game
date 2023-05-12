@@ -1,0 +1,22 @@
+print("\n \n Macbeth just finished attacking Norway he is coming back home to his wife: Lady Macbeth. \n King Duncan comes home and will stay at home. \n Lady Macbeth says we should kill King Duncan. \n \n Do you agree with her?") 
+
+first_action_macbeth = input("\n Type yes or no. ") 
+
+if (first_action_macbeth == "yes"):
+  print("\n You choose yes. \n \n Lady Macbeth says we should do it tonight. \n Lady Macbeth will remember this.")  
+elif (first_action_macbeth == "no"):
+  print("\n You choose no. \n \n Lady Macbeth says You do not know how happy we will become when you will become King. \n Our happiness depends on becoming the leader of Scotland. \n It's not a difficult task all you have to do kill King Duncan. \n I know that you respect King Duncan because he choose you to be Thane of Cawdor. \n Sometimes you have to harm someone for your benfits. \n He is an old man anyways.")
+else:
+  print("Invaild input make sure you type just no or yes in lowercase as shown.")
+
+print("\n \n Macbeth is counvinced all that's left is for Macbeth to kill King Duncan. \n King Duncan becomes a guest in Macbeth's home. He's still doubting it. \n ")
+
+decision_1 = input("Are you sure you want to proceeed? ")
+
+if (decision_1 == "yes"):
+  print("Macbeth is walking towards Duncan room and with the dagger he saw before his eye he murders King Duncan as he walks back he hears Servants crying and forgets the plan.")
+else:
+  print("Macbeth retreats. Lady Macbeth end their relationship and Macbeth movies to England. The end.")
+  exit()
+
+decisions_2 = input("Macbeth and Lady Macbeths start to panic every noise freightens them. Then they realize Mac")
